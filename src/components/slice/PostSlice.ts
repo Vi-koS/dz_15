@@ -1,8 +1,6 @@
-// postsSlice.ts
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { RootState } from '../../store';
 
-// Тип данных поста
 export interface Post {
   id: string;
   header?: string;
@@ -16,7 +14,6 @@ interface PostsState {
   error: string | null;
 }
 
-// Начальное состояние
 const initialState: PostsState = {
   posts: [],
   loading: false,

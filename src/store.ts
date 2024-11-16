@@ -1,4 +1,3 @@
-// store.ts
 import { configureStore } from '@reduxjs/toolkit';
 import postsReducer from '../src/components/slice/PostSlice';
 import favoritesReducer from '../src/components/slice/FavoritesSlice';

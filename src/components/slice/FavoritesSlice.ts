@@ -1,4 +1,3 @@
-// favoritesSlice.ts
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { RootState } from '../../store';
 
@@ -21,7 +20,7 @@ const favoritesSlice = createSlice({
       } else {
         state.favoriteIds.push(id);
       }
-      localStorage.setItem('favoriteIds', JSON.stringify(state.favoriteIds)); // Сохраняем изменения в localStorage
+      localStorage.setItem('favoriteIds', JSON.stringify(state.favoriteIds)); 
     },
   },
 });
