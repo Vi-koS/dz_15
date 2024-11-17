@@ -62,10 +62,10 @@ const CommentItem: React.FC<CommentItemProps> = ({ index, comment, setComments }
 const CommentListItem = styled.li`
     display: flex;
     justify-content: space-between;
-    margin-left: 15px; / Марджин слева для li /
-    max-width: 300px; / Максимальная ширина /
-    word-wrap: break-word; / Перенос слов на новую строку /
-    overflow-wrap: break-word; / Перенос слов на новую строку /
+    margin-left: 15px; 
+    max-width: 300px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
 `;
 
 export default CommentItem;

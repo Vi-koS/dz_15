@@ -35,12 +35,12 @@ const CommentFormStyle = styled.div`
     justify-content: space-between;
 
     input {
-      border: none; /* Убираем бордер у input */
-      outline: none; /* Убираем фокусное обрамление */
+      border: none; 
+      outline: none;
       
       &::placeholder {
-        color: #aaa; /* Цвет текста плейсхолдера */
-        opacity: 1; /* Полная непрозрачность плейсхолдера */
+        color: #aaa; 
+        opacity: 1; 
       }
 }
 
@@ -50,7 +50,7 @@ const CommentFormStyle = styled.div`
     padding: 5px;
 
      &:hover {
-        background-color: #f0f0f0; /* Цвет фона при наведении */
+        background-color: #f0f0f0; 
       }
     }
 `
